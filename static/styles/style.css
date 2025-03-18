@@ -103,12 +103,19 @@ button {
     border-radius: 8px;
     font-size: 1em;
     transition: border-color 0.3s, box-shadow 0.3s;
+    color:#5e5e5e;
+}
+
+input[type="date"]{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5e5e5e;
 }
 
 input:focus,
 select:focus,
 textarea:focus {
-    border-color: rgb(200, 200, 200);
+    border-color: rgb(82, 51, 236);
     outline: none;
     box-shadow: 0 0 8px rgba(120, 120, 120, 0.2);
 }
