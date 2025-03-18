@@ -364,3 +364,17 @@ textarea::placeholder {
     align-items: center;
     justify-content: center;
 }
+
+.btn-2{
+    background-color: #e56363;
+    color: white;
+}
+
+.btn-2:hover{
+    background-color: #f53b3b;
+}
+
+.btn-end{
+    display: flex;
+    gap: 20px;
+}
