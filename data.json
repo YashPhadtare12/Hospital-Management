@@ -1,0 +1,170 @@
+{
+    "users": [
+        {
+            "name": "Yash",
+            "email": "yashphadtare211@gmail.com",
+            "username": "Yash",
+            "password": "123"
+        },
+        {
+            "name": "Shubham",
+            "email": "yashphadtare211@gmail.com",
+            "username": "ABC",
+            "password": "123"
+        },
+        {
+            "name": "ABC",
+            "email": "yashphadtare211@gmail.com",
+            "username": "ABC1",
+            "password": "123"
+        }
+    ],
+    "Yash": {
+        "doctors": [
+            {
+                "name": "Karan Jaybhay",
+                "mobile": "8999612125",
+                "email": "yashphadtare211@gmail.com",
+                "gender": "Male",
+                "dob": "1999-02-01",
+                "address": "ABC",
+                "specialization": "General Physician",
+                "experience": "5",
+                "qualification": "MBBS",
+                "consultation_fee": "150"
+            }
+        ],
+        "appointments": [
+            {
+                "patient_name": "Yash Phadtare",
+                "doctor": "Karan Jaybhay",
+                "date": "2025-03-16",
+                "time": "00:52",
+                "status": "Scheduled"
+            },
+            {
+                "patient_name": "Shubham Salunke",
+                "doctor": "Karan Jaybhay",
+                "date": "2025-03-16",
+                "time": "12:56",
+                "status": "Scheduled"
+            },
+            {
+                "patient_name": "Shubham Salunke",
+                "doctor": "Karan Jaybhay",
+                "date": "2025-03-16",
+                "time": "00:25",
+                "status": "Scheduled"
+            },
+            {
+                "patient_name": "Dhiraj Gaikwad",
+                "doctor": "Karan Jaybhay",
+                "date": "2025-03-18",
+                "time": "17:32",
+                "status": "Scheduled"
+            }
+        ],
+        "patients": [
+            {
+                "name": "Shubham Salunke",
+                "mobile": "8999612125",
+                "email": "yashphadtare211@gmail.com",
+                "gender": "Male",
+                "address": "abc",
+                "dob": "2004-02-04"
+            },
+            {
+                "name": "Dhiraj Gaikwad",
+                "mobile": "8999612125",
+                "email": "yashphadtare211@gmail.com",
+                "gender": "Male",
+                "address": "ABC",
+                "dob": "2025-03-17"
+            }
+        ]
+    },
+    "ABC1": {
+        "doctors": [
+            {
+                "name": "Dr. Karan Jaybhay",
+                "mobile": "8999612125",
+                "email": "yashphadtare211@gmail.com",
+                "gender": "Male",
+                "dob": "2025-03-17",
+                "address": "ABC",
+                "specialization": "General Physician",
+                "experience": "10",
+                "qualification": "MBBS",
+                "consultation_fee": "150"
+            },
+            {
+                "name": "Pruthviraj Bhoite",
+                "mobile": "8999612125",
+                "email": "yashphadtare211@gmail.com",
+                "gender": "Male",
+                "dob": "1989-02-16",
+                "address": "ABC",
+                "specialization": "Cardiologist",
+                "experience": "4",
+                "qualification": "MBBS",
+                "consultation_fee": "145"
+            }
+        ],
+        "appointments": [
+            {
+                "patient_name": "Shubham Salunke",
+                "doctor": "Pruthviraj Bhoite",
+                "date": "2025-03-20",
+                "time": "10:00",
+                "status": "Scheduled"
+            },
+            {
+                "patient_name": "Yash Phadtare",
+                "doctor": "Dr. Karan Jaybhay",
+                "date": "2025-03-20",
+                "time": "10:30",
+                "status": "Scheduled"
+            },
+            {
+                "patient_name": "Dhiraj Gaikwad",
+                "doctor": "Dr. Karan Jaybhay",
+                "date": "2025-03-20",
+                "time": "10:45",
+                "status": "Scheduled"
+            },
+            {
+                "patient_name": "Yash Phadtare",
+                "doctor": "Dr. Karan Jaybhay",
+                "date": "2025-03-20",
+                "time": "09:45",
+                "status": "Scheduled"
+            }
+        ],
+        "patients": [
+            {
+                "name": "Yash Phadtare",
+                "mobile": "8999612125",
+                "email": "yashphadtare211@gmail.com",
+                "gender": "Male",
+                "address": "ABC",
+                "dob": "2005-06-12"
+            },
+            {
+                "name": "Shubham Salunke",
+                "mobile": "8999612125",
+                "email": "yashphadtare211@gmail.com",
+                "gender": "Male",
+                "address": "ABC",
+                "dob": "2003-11-12"
+            },
+            {
+                "name": "Dhiraj Gaikwad",
+                "mobile": "8999612125",
+                "email": "yashphadtare211@gmail.com",
+                "gender": "Male",
+                "address": "ABC",
+                "dob": "2004-05-14"
+            }
+        ]
+    }
+}
