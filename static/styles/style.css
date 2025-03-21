@@ -43,7 +43,6 @@ p {
     line-height: 1.6;
 }
 
-/* Container Styles */
 .container, .container1 {
     max-width: 1200px;
     width: 90%;
@@ -60,6 +59,7 @@ p {
 
 .container1 {
     max-width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .username {
@@ -88,7 +88,6 @@ label {
 }
 
 header {
-    /* background-color: rgb(230, 220, 220); */
     background-color: rgb(250, 240, 240);
     padding-top: 20px;
 }
@@ -120,7 +119,6 @@ textarea:focus {
     box-shadow: 0 0 8px rgba(120, 120, 120, 0.2);
 }
 
-/* Button Styles */
 button, .btn{
     width: 50%;
     margin: 10px auto;
@@ -153,7 +151,6 @@ button:active, .btn:active {
     transform: scale(0.98);
 }
 
-/* Table Styles */
 .table-container {
     margin-top: 30px;
     overflow-x: auto;
@@ -168,7 +165,6 @@ table {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-color: rgb(200, 200, 200);
 }
-
 
 thead {
     background-color: rgb(200, 200, 200);
@@ -188,7 +184,6 @@ td {
     border-top: 1px solid #ddd;
 }
 
-/* Button Group Styles */
 .btn-group {
     display: flex;
     gap: 10px; 
@@ -200,7 +195,6 @@ td {
     text-align: center;
 }
 
-/* Navigation Bar Styles */
 .navbar {
     width: 100%;
     display: flex;
@@ -232,7 +226,6 @@ td {
     padding: 10px;
 }
 
-/* Hero Section Styles */
 .hero {
     text-align: center;
     margin-bottom: 30px;
@@ -248,7 +241,6 @@ td {
     margin-bottom: 25px;
 }
 
-/* Features Section Styles */
 .features {
     display: flex;
     justify-content: space-between;
@@ -279,7 +271,6 @@ table {
     border-color: rgb(200, 200, 200);
 }
 
-/* Footer Styles */
 footer {
     text-align: center;
     margin-top: 30px;
@@ -289,7 +280,6 @@ footer {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .features {
         flex-direction: column;
@@ -339,13 +329,14 @@ table {
 
 .container2 {
     background-image: url("vecteezy_abstract-white-background-with-wavy-shapes-flowing-and_36340712.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .para {
     margin-top: 10px;
 }
 
-/* Match textarea placeholder with input placeholder */
 input::placeholder,
 textarea::placeholder {
     color: #6c757d;
@@ -363,6 +354,8 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .btn-2{
@@ -377,4 +370,8 @@ textarea::placeholder {
 .btn-end{
     display: flex;
     gap: 20px;
+}
+
+.body-add{
+    background-color: rgb(236, 236, 236);
 }
